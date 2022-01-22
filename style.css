@@ -1,0 +1,13 @@
+body {
+  display: flex;;
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
