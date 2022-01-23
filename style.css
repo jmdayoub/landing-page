@@ -1,12 +1,9 @@
 body {
   margin: 0;
   height: 100vh;
-  display: flex;
 }
 
 .sections {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -16,6 +13,12 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   height: auto;
+}
+
+.sectiontwo {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
 }
 
 .logo {
@@ -68,7 +71,8 @@ a {
   width: 350px;
 }
 
-.sectiontwo {
+h2 {
   display: flex;
-  background-color: ;
+  justify-content: center;
+  align-items: center;
 }
