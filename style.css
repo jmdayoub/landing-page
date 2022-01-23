@@ -1,29 +1,38 @@
 body {
   margin: 0;
   height: 100vh;
+  display: flex;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .sectionone {
   background-color: #1F2937;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  height: 400px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: auto;
 }
 
 .logo {
   display: flex;
+  flex-shrink: 0;
   justify-content: space-evenly;
   align-items: center;
   color: #F9FAF8;
   size: 24px;
+  gap: 16em;
+  padding: 5px;
 }
 
 .links {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  gap: 16px;
 }
 
 a {
@@ -34,27 +43,29 @@ a {
   text-decoration: none;
 }
 
-content {
+.content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  size: 24px;
+  padding: 16px;
+  height: auto;
+  width: 625px;
 }
 
 .contentleft {
   display: flex;
-  flex-direction: colum;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 275px;
 }
-
 .contentright {
   display: flex;
-  width: 200px;
-  height: 100px;
   background-color: gray;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  height:auto;
+  width: 350px;
 }
 
 .sectiontwo {
