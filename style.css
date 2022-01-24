@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   height: 100vh;
   overflow: auto;
+  box-sizing: border-box;
 }
 
 .sectionone {
@@ -11,7 +12,7 @@ html, body {
   flex-direction: column;
 }
 
-.sectiontwo, .row {
+.sectiontwo {
   display: flex;
   justify-content: center;
   height: auto;
@@ -79,16 +80,33 @@ button {
   border: none;
   width: 125px;
 }
+
 .row {
   margin: 5px;
   padding: 5px;
   gap: 25px;
+  display: flex;
   justify-content: center;
   align-self: center;
+}
+
+/* flex 0 kept text wrapped properly under the image */
+
+.pic {
+  flex: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
   border: 5px solid #555;
   border-radius: 15px;
   border-color: #3882F6;
+}
+
+.sectionthree { 
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
 }
