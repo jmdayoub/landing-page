@@ -4,6 +4,7 @@ html, body {
   height: 100vh;
   overflow: auto;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sectionone {
@@ -128,7 +129,7 @@ img {
 }
 
 p {
-  margin: 0;
+  margin: 8px;
   padding: 0;
 }
 
@@ -140,4 +141,23 @@ h4 {
   font-size: 20px;
   margin: 0;
   padding: 0;
+}
+
+.sectionfour {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  background-color: white;
+}
+
+.container {
+  background-color: #3882F6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 100px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 10px;
 }
