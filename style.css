@@ -54,7 +54,7 @@ a {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 425px;
+  width: 300px;
 }
 
 .contentright {
@@ -62,8 +62,8 @@ a {
   background-color: gray;
   justify-content: center;
   align-items: center;
-  height:auto;
-  width: 500px;
+  height: auto;
+  width: 300px;
   border: none;
 }
 
@@ -109,4 +109,23 @@ img {
   justify-content: center;
   height: auto;
   width: 100%;
+  background-color: rgb(230, 230, 230);
+}
+
+.quotebox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 36px;
+  font-style: italic;
+  width: 50%;
+}
+
+h4 {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
 }
