@@ -75,10 +75,16 @@ h2 {
 
 button {
   background-color: #3882F6;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 8px;
   border: none;
   width: 125px;
+  margin-top: 10px;
+}
+
+.signup {
+  color: white;
+  font-weight: bold;
 }
 
 .row {
